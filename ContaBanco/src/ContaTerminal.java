@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        Scanner 50 = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         Conta conta = new Conta();
 
-        System.out.println("Por favor, digite o número da conta: ");
+        System.out.println("Por favor, digite o número da sua conta: ");
 
         conta.Numero = scanner.nextInt();
 
-        System.out.println("Por favor, digite o número da agência: ");
+        System.out.println("Por favor, digite o número da sua agência: ");
 
         scanner.nextLine();
 
